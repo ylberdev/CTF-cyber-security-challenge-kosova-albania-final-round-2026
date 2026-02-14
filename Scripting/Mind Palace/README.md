@@ -335,15 +335,6 @@ Part 5: (empty)
 Reconstructed flag: CSC26{m3m0ry_m45ter_2026}
 ```
 
-#### 8. Key Insights
-
-1. **Persistent storage required**: Must maintain a dictionary mapping `request_id` → response data
-2. **Question parsing**: Extract target `request_id` and field name from natural language questions
-3. **Immediate submission**: Answer questions as soon as they appear to maximize flag part collection
-4. **Error handling**: Server occasionally returns HTTP 500; skip and continue
-5. **Session persistence**: Using `requests.Session()` maintains cookies and connection pooling
-6. **Flag assembly**: Part 5 is intentionally empty; final flag is concatenation of parts 1-4
-
 ### Flag
 
 ```
