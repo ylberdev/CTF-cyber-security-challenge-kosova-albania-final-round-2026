@@ -1,6 +1,6 @@
 # Serial Killer
 
-**Points: 400**
+**Points: 400**  
 **Hint:** TechCorp Solutions is a leading enterprise Java development company that prides itself on security. However, beneath their polished exterior lies a critical vulnerability that could compromise their entire infrastructure.
 
 ## Solution
@@ -246,7 +246,7 @@ This repository contains:
 - **`exploit.py`** — Python exploitation script with colored output and detailed reporting
 - **`exploit.sh`** — Bash exploitation script that generates payloads and retrieves the flag
 - **`test_local.sh`** — Local testing script to compile and test the vulnerable Java code
-- **`index.html`**, **`login`**, **`admin`**, **`about`**, **`services`** — Static HTML files mirroring the challenge website
+- **`index.html`**, **`login`**, **`admin`**, **`about`**, **`services`** — wget extracted files 
 
 ### Tools Used
 - `curl` — HTTP requests and endpoint probing
