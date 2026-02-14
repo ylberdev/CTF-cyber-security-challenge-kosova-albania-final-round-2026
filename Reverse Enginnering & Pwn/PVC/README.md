@@ -1,6 +1,6 @@
 # PYC
 
-**200 Points**
+**250 Points**  
 **Hint:** A corrupted Python script has been discovered. The only thing we know is that it accepts an argument as input.
 
 ## Solution
