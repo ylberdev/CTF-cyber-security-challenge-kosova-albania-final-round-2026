@@ -1,0 +1,38 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Admin Panel - TechCorp Solutions</title>
+        <style>
+            body { font-family: 'Courier New', monospace; margin: 0; padding: 0; background: #0a0a0a; color: #00ff00; line-height: 1.6; }
+            .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+            .header { border-bottom: 2px solid #00ff00; padding-bottom: 20px; margin-bottom: 30px; text-align: center; }
+            .content { background: #111; padding: 25px; border: 1px solid #00ff00; margin-top: 30px; }
+            .warning { color: #ff6600; background: #1a1a1a; padding: 15px; border: 1px solid #ff6600; margin: 20px 0; }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h1>TechCorp Solutions - Admin Panel</h1>
+                <p>System Administration Interface</p>
+            </div>
+            
+            <div class="content">
+                <div class="warning">
+                    <strong>⚠️ RESTRICTED ACCESS:</strong> This area is for authorized personnel only.
+                </div>
+                
+                <h2>System Status</h2>
+                <p>All systems operational. Java applications running normally.</p>
+                
+                <h2>Recent Activity</h2>
+                <p>No unusual activity detected. Session management and configuration systems functioning properly.</p>
+                
+                <h2>Security Notes</h2>
+                <p>Our Java applications use standard serialization for session management and configuration storage. All data is properly validated and secured.</p>
+            </div>
+        </div>
+    </body>
+    </html>
+    

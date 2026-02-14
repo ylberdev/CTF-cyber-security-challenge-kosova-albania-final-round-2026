@@ -1,0 +1,50 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Services - TechCorp Solutions</title>
+        <style>
+            body { font-family: 'Courier New', monospace; margin: 0; padding: 0; background: #0a0a0a; color: #00ff00; line-height: 1.6; }
+            .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+            .header { border-bottom: 2px solid #00ff00; padding-bottom: 20px; margin-bottom: 30px; text-align: center; }
+            .nav { margin: 20px 0; text-align: center; }
+            .nav a { color: #00ff00; text-decoration: none; margin: 0 20px; padding: 10px 15px; border: 1px solid #00ff00; transition: all 0.3s; }
+            .nav a:hover { background: #00ff00; color: #000; }
+            .content { background: #111; padding: 25px; border: 1px solid #00ff00; margin-top: 30px; }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h1>TechCorp Solutions</h1>
+                <p>Enterprise Java Development & Consulting Services</p>
+            </div>
+            
+            <div class="nav">
+                <a href="/">Home</a>
+                <a href="/about">About</a>
+                <a href="/services">Services</a>
+                <a href="/blog">Blog</a>
+                <a href="/contact">Contact</a>
+                <a href="/login">Login</a>
+            </div>
+            
+            <div class="content">
+                <h2>Our Services</h2>
+                
+                <h3>Enterprise Java Development</h3>
+                <p>Custom Java applications built with Spring Framework, Hibernate, and other enterprise technologies.</p>
+                
+                <h3>System Integration</h3>
+                <p>Seamless integration of Java applications with existing enterprise systems and databases.</p>
+                
+                <h3>Security Consulting</h3>
+                <p>Comprehensive security assessments and implementation of best practices for Java applications.</p>
+                
+                <h3>Performance Optimization</h3>
+                <p>Database tuning, caching strategies, and application performance improvements.</p>
+            </div>
+        </div>
+    </body>
+    </html>
+    
