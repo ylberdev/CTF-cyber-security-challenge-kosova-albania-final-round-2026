@@ -137,15 +137,6 @@ public String getFlag() {
 
 Result: **`CSC26{s3cur3_v4ult_4ndr01d_r3v3rs3_3ng1n33r1ng}`**
 
-#### 8. Understanding the Vulnerabilities
-The "SecureVault" app contains multiple critical security flaws:
-
-1. **Hardcoded Credentials**: Encryption keys and IV stored in fallback code
-2. **Weak Authentication**: Multiple hardcoded passwords (`VaultMaster2026!`, `admin123`, `password`)
-3. **Information Disclosure**: Excessive debug logging exposes sensitive data
-4. **Flag Leakage**: Flag hardcoded as fallback value in error handling
-5. **Insecure Storage**: SQLite database without proper encryption
-6. **MD5 Password Hashing**: Using deprecated MD5 for password hashing
 
 ### Flag
 
