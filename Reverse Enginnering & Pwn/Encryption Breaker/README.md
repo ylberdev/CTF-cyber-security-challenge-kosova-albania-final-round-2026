@@ -1,7 +1,7 @@
 # Encryption Breaker
 
 **350 Points**  
-**Hint:** An old-school arcade machine uses a custom encryption algorithm to protect its save files. Your task is to reverse engineer the encryption method and decrypt the high score data to find the hidden flag.
+**Hint:** An old-school arcade machine uses a custom encryption algorithm to protect its save files. Your task is to reverse engineer the encryption method and decrypt the high score data to find the hidden flag.  
 **URL:** https://mnbvcxzasdfghjk-csc26.cybersecuritychallenge.al/  
 
 ## Solution
